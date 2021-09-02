@@ -17,9 +17,14 @@ namespace VariablesAndExpressions
             lastName = Console.ReadLine();
 
             int luckynumber = 7;
-            double evenluckierNumber = 7 * luckynumber;
 
-            Console.WriteLine(firstName + " " + lastName + " " + evenluckierNumber);
+            System.Console.WriteLine("What is your Favorite Number? >>");
+            string answer = Console.ReadLine();
+            luckynumber = Convert.ToInt32(answer);
+
+            double evenLuckierNumber = 7 * luckynumber;
+
+            Console.WriteLine(firstName + " " + lastName + " " + evenLuckierNumber);
         }
     }
 }
