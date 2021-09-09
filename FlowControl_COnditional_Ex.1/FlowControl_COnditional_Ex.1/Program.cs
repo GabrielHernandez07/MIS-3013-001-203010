@@ -11,7 +11,7 @@ namespace FlowControl_COnditional_Ex._1
 
             Console.WriteLine($"{name}, what is your monthly income? >>");
             string monthlyIncomeAsString = Console.ReadLine();
-            double monthlyIncome = Convert.ToDouble(Console.ReadLine());
+            double monthlyIncome = Convert.ToDouble(monthlyIncomeAsString);
 
             Console.WriteLine($"{name}, what is your monthly expenses? >>");
             double monthlyExpenses = Convert.ToDouble(Console.ReadLine());
